@@ -1,0 +1,19 @@
+{
+  "name": "vanilla-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cross-env NODE_ENV=production webpack --mode=production"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/runtime": "^7.13.17",
+    "core-js": "^3.10.2",
+    "cross-env": "^7.0.3",
+    "html-webpack-plugin": "^5.3.1"
+  }
+}

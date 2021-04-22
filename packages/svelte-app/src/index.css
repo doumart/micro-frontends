@@ -1,0 +1,13 @@
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo {
+  height: 100px;
+}
+
+.framework-name {
+  font-size: 1.2rem;
+}
